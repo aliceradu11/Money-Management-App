@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Personal Budget Managing</string>
+    <string name="date">Date:</string>
+    <string name="eur">EUR:</string>
+    <string name="usd">USD:</string>
+    <string name="gbp">GBP:</string>
+    <string name="rub">RUB:</string>
+    <string name="jpy">JPY:</string>
+    <string name="please_fill_in_the_eur_value">Please fill in the EUR value</string>
+    <string name="display_cr_rates">Display currency rates</string>
+    <string name="save_data">Save data</string>
+    <string name="please_leave_note">Leave note...</string>
+    <string name="please_pick_category">Pick category...</string>
+    <string name="please_enter_the_date">Enter date...</string>
+    <string name="please_enter_amount">Enter the amount...</string>
+    <string name="add_item">Add item</string>
+    <string name="pbm">Personal budget managing</string>
+</resources>
