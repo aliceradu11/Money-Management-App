@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CurrencyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:text="@string/date" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/euro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eur" />
+
+            <EditText
+                android:id="@+id/editTextEUR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/please_fill_in_the_eur_value" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/dollar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usd" />
+
+            <EditText
+                android:id="@+id/editTextUSD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/gbp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="@string/gbp" />
+
+            <EditText
+                android:id="@+id/editTextGBP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="421dp"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/ruble" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:text="@string/rub" />
+
+            <EditText
+                android:id="@+id/editTextRUB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:srcCompat="@drawable/jpy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="@string/jpy" />
+
+            <EditText
+                android:id="@+id/editTextJPY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/showBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/display_cr_rates" />
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save_data" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
